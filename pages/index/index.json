@@ -1,0 +1,5 @@
+{
+    "usingComponents":{
+        "star-mark":"../../component/markStar/markStar"
+    }
+}

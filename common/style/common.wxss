@@ -1,0 +1,7 @@
+.leave-out{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    display: inline-block;
+}

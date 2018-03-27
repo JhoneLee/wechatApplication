@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/music/music",
+    "pages/book/book",
+    "pages/movieDetail/movieDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",  
+    "navigationBarBackgroundColor": "#00b600",
+    "navigationBarTitleText": "豆瓣酱",
+    "navigationBarTextStyle":"white",
+    "backgroundColorTop":"gray"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#00b600",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/movie_tab.png",
+        "selectedIconPath": "images/movie_tab_c.png",
+        "text": "电影"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "iconPath": "images/music_tab.png",
+        "selectedIconPath": "images/music_tab_c.png",
+        "text": "音乐"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "iconPath": "images/book_tab.png",
+        "selectedIconPath": "images/book_tab_c.png",
+        "text": "图书"
+      }
+    ]
+  }
+}

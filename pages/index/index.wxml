@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+<scroll-view scroll-x="true" class="movie-online">
+    <view wx:for="{{movies}}" wx:key="*this" class="movie-item">
+        <navigator url="/pages/movieDetail/movieDetail?id={{item.movieId}}">
+            <image class="movie-cover" lazy-load="true" src="{{item.img}}"></image>
+            <text class="movie-title leave-out" wx:if="item.titleCn">{{item.titleCn}}</text>
+            <star-mark mark="{{item.ratingFinal}}"></star-mark>
+        </navigator>
+    </view>
+</scroll-view>

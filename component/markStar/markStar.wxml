@@ -1,0 +1,4 @@
+<view class="mark-star">
+    <view wx:for="{{stars}}" wx:key="*this" class="{{item.className}}"></view>
+    <text class="mark-txt">{{mark}}</text>
+</view>

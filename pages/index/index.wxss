@@ -1,0 +1,30 @@
+/* pages/movie/movie.wxss */
+@import "/common/style/common.wxss";
+.movie-online{
+    height:420rpx;
+    margin-top: 30rpx;
+    width: 100%;
+    white-space: nowrap; /*scroll-view滚动 必须加这个*/
+}
+.movie-item{
+    width: 200rpx;
+    margin-left: 30rpx;
+    display: inline-block; /*scroll-view滚动 子元素必须为inline-block  不能float*/
+    height: 420rpx;
+}
+.movie-item:last-child{
+    margin-right: 30rpx;
+}
+.movie-cover{
+    height: 284rpx;
+    width: 200rpx;
+}
+
+.movie-title{
+    font-size: 30rpx;
+    width:200rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    margin-top:20rpx;
+    display: block;
+}
